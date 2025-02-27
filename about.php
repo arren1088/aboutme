@@ -16,8 +16,8 @@
     }
 
     function change2() {
-      document.getElementById("pic").src = "cliff.jpg";
-      document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
+      document.getElementById("pic").src = "icon.png";
+      document.getElementById("h2text").innerText = "EnJu Chen";
     }
   </script>
 </head>
