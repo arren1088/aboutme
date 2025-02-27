@@ -16,12 +16,13 @@
     }
 
     function change2() {
-      document.getElementById("pic").src = "cliff.jpg";
-      document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
+      document.getElementById("pic").src = "icon.png";
+      document.getElementById("h2text").innerText = "EnJu Chen";
     }
   </script>
 </head>
-<body><table width="70%">
+<body>
+<table width="70%">
   <tr>
     <td>
       <img src="icon.png" width="30%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
@@ -49,5 +50,6 @@ Gmail：<a href="https://mail.google.com">前往</a><br>
     <td>
   </tr>
 </table>
+<?php echo date("Y-m-d")?>
 </body>
 </html>
