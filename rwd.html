@@ -4,11 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>陳恩儒簡介</title>
-  <style type="text/css">
-    * { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
-    h1 {color:blue; font-size:60px;}
-    h2 {color:#33ff33; font-size:40px;}
-  </style>
+  <link rel="stylesheet" href="css/style.css">
   <script>
     function change1() {
       document.getElementById("pic").src = "mountain.jpg";
@@ -22,6 +18,20 @@
   </script>
 </head>
 <body>
+<header>
+  <div class="header-container">
+    <div class="title">資訊管理導論＿陳恩儒</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="time.php">今日時間(PHP版)</a></li>
+        <li><a href="about.html">關於我</a></li>
+        <li><a href="https://www.104.com.tw">104人力銀行</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body>
 <table width="70%">
   <tr>
     <td>
@@ -33,24 +43,29 @@
   </tr>
 </table>
 <h1>陳恩儒</h1>
-  <h2 id="h2text">EnJu Chen</h2>
+<h2 id="h2text">EnJu Chen</h2>
 <table width="70%" border="1">
   <tr>
     <td>
-    E-Mail: arren1088@gmail.com<br>
-Gmail：<a href="https://mail.google.com">前往</a><br>
+      <h3>陳恩儒 EJ.C</h3>
+      E-Mail: arren1088@gmail.com<br>
+      Gmail：<a href="https://mail.google.com">前往</a><br>
     <td>
-    大象席地而坐電影配樂<br>
-<audio controls>
-  <source src="elephant.mp3" type="audio/mP3">
-</audio><br>
+      <h3>電影配樂</h3>
+      大象席地而坐電影配樂<br>
+      <audio controls>
+        <source src="elephant.mp3" type="audio/mP3">
+      </audio><br>
     <td>
-不要去臺灣<br>
-<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
+      <h3>推薦影片</h3>
+      不要去臺灣<br>
+      <iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
     <td>
-    <iframe height="430" width="350" src="https://bot.dialogflow.com/06baeabf-c86a-42f0-8e2c-dd6c753d9300"></iframe>
+      <iframe height="430" width="350" src="https://bot.dialogflow.com/06baeabf-c86a-42f0-8e2c-dd6c753d9300"></iframe>
   </tr>
 </table>
 <?php echo date("Y-m-d")?>
 </body>
-</html>
+<footer>
+  <p>&copy; 2025 靜宜資管 陳恩儒 - 版權所有</p>
+</footer>
